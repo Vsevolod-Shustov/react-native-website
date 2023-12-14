@@ -460,7 +460,7 @@ const Cafe = () => {
 };
 ```
 
-> See the `<>` and `</>` above? These bits of JSX are [fragments](https://react.dev/reference/react/Fragment). Adjacent JSX elements must be wrapped in an enclosing tag. Fragments let you do that without nesting an extra, unnecessary wrapping element like `View`.
+> See the `<>` and `</>` above? These bits of JSX are [fragments](https://react.dev/reference/react/Fragment). [React component must return a single root element.](https://react.dev/learn/writing-markup-with-jsx#1-return-a-single-root-element) Fragments let you do that without nesting an extra, unnecessary wrapping element like `View`.
 
 ---
 
